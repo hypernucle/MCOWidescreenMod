@@ -6,6 +6,7 @@
 #pragma once
 #define WIN32_LEAN_AND_MEAN
 #include <numeric>
+#include <filesystem>
 
 #include "includes/injector/injector.hpp"
 #include "includes/injector/assembly.hpp"
@@ -65,14 +66,13 @@ std::string GetIniPath()
 	GetModuleHandleExA(GET_MODULE_HANDLE_EX_FLAG_FROM_ADDRESS, (LPCSTR)&GetIniPath, &hModule);
 	GetModuleFileNameA(hModule, pathBuf, MAX_PATH);
 
-	std::string path = pathBuf;
-	path = path.substr(0, path.length() - 3); // asi to ini
-	path.append(CfgExtension);
+	std::filesystem::path asiPath(pathBuf);
 
-	gameFolderPath = path.substr(0, path.length() - 29);
-	gameFolderPath.append("\\");
+	gameFolderPath = (asiPath.parent_path().parent_path().string()) + "\\";
+	std::filesystem::path iniPath = asiPath;
+	iniPath.replace_extension(CfgExtension);
 
-	return path;
+	return iniPath.string();
 }
 
 void StartTestConsole()
