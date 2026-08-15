@@ -1,0 +1,262 @@
+[DebugBrowser.FEInterface]
+MInterface.mbStackable=0
+MInterface.mConn=MICONN_LOGIN
+CHILDREN=debug.scn.browser
+GUI.mBounds=[0,0] 800,600
+GUI.mLayout=LAYOUT_HCENTER
+
+[<IEditor>.GInterface]
+CHILDREN=Edit\\Editor.gui
+GUI.mBounds=[0,0] 640,480
+*GEVENT_IDLE=GEdit_IDLE_IEditor
+
+
+[Login.FEInterface]
+MInterface.mbStackable=0
+MInterface.mTitle=Login
+MInterface.mConn=MICONN_LOGIN
+CHILDREN=scn.login
+GUI.mBounds=[0,0] 800,600
+GUI.mLayout=LAYOUT_HCENTER
+
+
+[Home.FEInterface]
+MInterface.mbStackable=1
+MInterface.mUpUI=Login
+MInterface.mTitle=kTxtHome
+CHILDREN=scn.home
+GUI.mBounds=[0,0] 800,600
+GUI.mLayout=LAYOUT_HCENTER
+
+
+
+
+[CommHome.FEInterface]
+MInterface.mbStackable=1
+MInterface.mUpUI=Home
+MInterface.mConn=MICONN_NONE
+MInterface.mTitle=kTxtCommunityHome
+MInterface.mNavPath=Home > %s
+CHILDREN=scn.comm.home
+GUI.mBounds=[0,0] 800,600
+GUI.mLayout=LAYOUT_HCENTER
+
+
+
+[SimUI.SimGUI_cUserInterface]
+MInterface.mConn=MICONN_SIM
+GUI.mLayout=LAYOUT_HCENTER
+GUI.mBounds=[0,0] 800,600
+CHILDREN=view.SimLayout
+
+
+
+
+[SimLobby.FEInterface]
+MInterface.mbStackable=1
+MInterface.mUpUI=Home
+MInterface.mConn=MICONN_LOBBY
+MInterface.mTitle=%s Lobby
+MInterface.mNavPath=Home > Sim World > Sim Racing
+CHILDREN=scn.sim.lobby
+GUI.mBounds=[0,0] 800,600
+GUI.mLayout=LAYOUT_HCENTER
+
+
+[SimPit.FEInterface]
+MInterface.mbStackable=0
+MInterface.mUpUI=SimLobby
+MInterface.mConn=MICONN_PIT
+MInterface.mTitle=kTxtPit
+MInterface.mNavPath=Home > Sim Action > %s
+CHILDREN=scn.sim.pit
+GUI.mBounds=[0,0] 800,600
+GUI.mLayout=LAYOUT_HCENTER
+
+
+
+[Workshop.FEInterface]
+MInterface.mbStackable=1
+MInterface.mConn=MICONN_NONE
+MInterface.mUpUI=Home
+MInterface.mTitle=kTxtWorkshop
+MInterface.mNavPath=Home > Sim World > Customize > Garage > Workshop
+CHILDREN=scn.workshop
+GUI.mBounds=[0,0] 800,600
+GUI.mLayout=LAYOUT_HCENTER
+
+
+
+
+[GarageShow.FEInterface]
+MInterface.mbStackable=1
+MInterface.mUpUI=Home
+MInterface.mConn=MICONN_NONE
+MInterface.mTitle=kTxtShowroom
+CHILDREN=scn.gar.cup
+GUI.mBounds=[0,0] 800,600
+GUI.mLayout=LAYOUT_HCENTER
+MInterface.mNavPath=Home > Sim World > Customize > Garage > Showroom
+
+[Dealer.FEInterface]
+MInterface.mbStackable=1
+MInterface.mConn=MICONN_NONE
+MInterface.mTitle=Auto Sales
+MInterface.mNavPath=Home > Sim World > Auto Row > Dealer
+MInterface.mUpUI=Home
+CHILDREN=scn.get.dlr
+GUI.mBounds=[0,0] 800,600
+GUI.mLayout=LAYOUT_HCENTER
+
+[Help.FEInterface]
+MInterface.mbStackable=1
+MInterface.mConn=MICONN_NONE
+MInterface.mTitle=Help
+MInterface.mNavPath=
+CHILDREN=scn.hlp
+GUI.mBounds=[0,0] 800,600
+GUI.mLayout=LAYOUT_HCENTER
+
+[PartAuctions.FEInterface]
+MInterface.mbStackable=1
+MInterface.mConn=MICONN_NONE
+MInterface.mTitle=kTxtAutoPartsAuction
+MInterface.mNavPath=Home > Sim World > Customize Home > Parts Auction
+MInterface.mUpUI=Home
+CHILDREN=scn.sim.auc.part
+GUI.mBounds=[0,0] 800,600
+GUI.mLayout=LAYOUT_HCENTER
+
+[MyAuctions.FEInterface]
+MInterface.mbStackable=1
+MInterface.mConn=MICONN_NONE
+MInterface.mTitle=kTxtMyAuctions
+MInterface.mNavPath=Home > My Auctions
+MInterface.mUpUI=Home
+CHILDREN=scn.sim.auc.myauc
+GUI.mBounds=[0,0] 800,600
+GUI.mLayout=LAYOUT_HCENTER
+
+[Ford.FEInterface]
+MInterface.mbStackable=1
+MInterface.mConn=MICONN_NONE
+MInterface.mTitle=kTxtAllFactoryFord
+MInterface.mNavPath=Home > Sim World > Auto Row > All Factory Ford
+MInterface.mUpUI=Home
+CHILDREN=scn.sim.auc.dea6.Ford
+GUI.mBounds=[0,0] 800,600
+GUI.mLayout=LAYOUT_HCENTER
+
+[GM.FEInterface]
+MInterface.mbStackable=1
+MInterface.mConn=MICONN_NONE
+MInterface.mTitle=kTxtOriginalGM
+MInterface.mNavPath=Home > Sim World > Auto Row > Original GM
+MInterface.mUpUI=Home
+CHILDREN=scn.sim.auc.dea7.GM
+GUI.mBounds=[0,0] 800,600
+GUI.mLayout=LAYOUT_HCENTER
+
+[Chrysler.FEInterface]
+MInterface.mbStackable=1
+MInterface.mConn=MICONN_NONE
+MInterface.mTitle=kTxtClassicChrysler
+MInterface.mNavPath=Home > Sim World > Auto Row > Classic Chrysler
+MInterface.mUpUI=Home
+CHILDREN=scn.sim.auc.dea8.Chry
+GUI.mBounds=[0,0] 800,600
+GUI.mLayout=LAYOUT_HCENTER
+
+[FatFender.FEInterface]
+MInterface.mbStackable=1
+MInterface.mConn=MICONN_NONE
+MInterface.mTitle=kTxtFatFenderFreddys
+MInterface.mNavPath=Home > Sim World > Auto Row > Fat Fender Freddy's
+MInterface.mUpUI=Home
+CHILDREN=scn.sim.auc.dea2.fatf
+GUI.mBounds=[0,0] 800,600
+GUI.mLayout=LAYOUT_HCENTER
+
+[Shoebox.FEInterface]
+MInterface.mbStackable=1
+MInterface.mConn=MICONN_NONE
+MInterface.mTitle=kTxtShoeboxShowroom
+MInterface.mNavPath=Home > Sim World > Auto Row > Shoebox Showroom
+MInterface.mUpUI=Home
+CHILDREN=scn.sim.auc.dea5.shoe
+GUI.mBounds=[0,0] 800,600
+GUI.mLayout=LAYOUT_HCENTER
+
+[Muscle.FEInterface]
+MInterface.mbStackable=1
+MInterface.mConn=MICONN_NONE
+MInterface.mTitle=kTxtMuscleMikes
+MInterface.mNavPath=Home > Sim World > Auto Row > Muscle Mike's
+MInterface.mUpUI=Home
+CHILDREN=scn.sim.auc.dea3.mike
+GUI.mBounds=[0,0] 800,600
+GUI.mLayout=LAYOUT_HCENTER
+
+[Righteous.FEInterface]
+MInterface.mbStackable=1
+MInterface.mConn=MICONN_NONE
+MInterface.mTitle=kTxtRighteousRides
+MInterface.mNavPath=Home > Sim World > Auto Row > Righteous Rides
+MInterface.mUpUI=Home
+CHILDREN=scn.get.rrides
+GUI.mBounds=[0,0] 800,600
+GUI.mLayout=LAYOUT_HCENTER
+
+[AutoBarn.FEInterface]
+MInterface.mbStackable=1
+MInterface.mConn=MICONN_NONE
+MInterface.mTitle=kTxtAutoBarn
+MInterface.mNavPath=Home > Sim World > Auto Row > Auto Barn
+MInterface.mUpUI=Home
+CHILDREN=scn.sim.auc.dea1.barn
+GUI.mBounds=[0,0] 800,600
+GUI.mLayout=LAYOUT_HCENTER
+
+[PlayerAuctions.FEInterface]
+MInterface.mbStackable=1
+MInterface.mConn=MICONN_NONE
+MInterface.mTitle=Player Auctions
+MInterface.mNavPath=Home > Sim World > Auto Row > Player Auction
+MInterface.mUpUI=Home
+CHILDREN=scn.sim.auc.ply
+GUI.mBounds=[0,0] 800,600
+GUI.mLayout=LAYOUT_HCENTER
+
+
+
+[DetailShop.FEInterface]
+MInterface.mbStackable=1
+MInterface.mUpUI=Home
+MInterface.mConn=MICONN_NONE
+MInterface.mTitle=kTxtDetailShop
+MInterface.mNavPath=Home > Sim World > Customize > Detail Shop
+CHILDREN=scn.sim.det
+GUI.mBounds=[0,0] 800,600
+GUI.mLayout=LAYOUT_HCENTER
+
+
+
+[SimTTLobby.FEInterface]
+MInterface.mbStackable=0
+MInterface.mUpUI=Home
+MInterface.mConn=MICONN_LOBBY
+MInterface.mTitle=kTxtTimeTrialRace
+MInterface.mNavPath=Home > Sim World > Sim Racing
+CHILDREN=scn.sim.lobby.tt
+GUI.mBounds=[0,0] 800,600
+GUI.mLayout=LAYOUT_HCENTER
+
+[SponsoredTTLobby.FEInterface]
+MInterface.mbStackable=0
+MInterface.mUpUI=Home
+MInterface.mConn=MICONN_LOBBY
+MInterface.mTitle=kTxtSponsoredTimeTrial
+MInterface.mNavPath=Home > Sim World > Sim Racing
+CHILDREN=scn.arc.lobby.tt
+GUI.mBounds=[0,0] 800,600
+GUI.mLayout=LAYOUT_HCENTER

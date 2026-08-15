@@ -1,0 +1,690 @@
+[About.GDialog]
+CHILDREN=Dlg.About
+GUI.mStyle=GS_TAB|GS_ABSOLUTE|GS_MODAL
+GUI.mBounds=[213, 114] 375, 215
+GUI.mColor=[84, 0, 0, 0]
+
+[Favorites.GDialog]
+CHILDREN=Dlg.Favorites
+GUI.mStyle=GS_TAB|GS_ABSOLUTE|GS_MODAL
+GUI.mBounds=[213, 114] 375, 386
+GUI.mColor=[84, 0, 0, 0]
+
+
+[PlaceClassified.MPlaceClassifiedDlg]
+CHILDREN=Dlg.PlaceClassified
+GUI.mStyle=GS_TAB|GS_ABSOLUTE|GS_MODAL
+GUI.mBounds=[268, 81] 412, 402
+GUI.mColor=[84, 0, 0, 0]
+
+[Verify.GMsgBox]
+GUI.mBounds=[145, 282] 351, 155
+CHILDREN=Dlg.verify
+GUI.mColor=[84, 0, 0, 0]
+GDialog.mDialogStyle=DS_KEYCANCEL
+
+[RegisterClubQuestionaire.GDialog]
+GUI.mStyle=GS_TAB|GS_ABSOLUTE|GS_MODAL
+CHILDREN=dlg.registerclub.quest
+GUI.mBounds=[39, 51] 432, 247
+GUI.mColor=[84, 0, 0, 0]
+
+[RegisterClub.MClubRegisterDlg]
+GUI.mStyle=GS_TAB|GS_ABSOLUTE|GS_MODAL
+CHILDREN=dlg.registerclub
+GUI.mBounds=[39, 51] 539, 455
+GUI.mColor=[84, 0, 0, 0]
+
+[WagInstall.MWagInstallDlg]
+GUI.mStyle=GS_TAB|GS_ABSOLUTE|GS_MODAL
+CHILDREN=Dlg.WagInstall
+GUI.mBounds=[181, 158] 380, 377
+GUI.mColor=[84, 0, 0, 0]
+
+[InvSelCarComp.GDialog]
+GUI.mStyle=GS_TAB|GS_ABSOLUTE|GS_MODAL
+GUI.mBounds=[192, 72] 402, 457
+CHILDREN=dlg.inv.selcarcomp
+GUI.mColor=[84, 0, 0, 0]
+
+
+[Handicap.MHandicapDialog]
+CHILDREN=Dlg.Handicap
+GUI.mStyle=GS_TAB
+GUI.mBounds=[247, 196] 348, 216
+GUI.mTabOrder=1
+GUI.mZOrder=1
+GUI.mColor=[84, 0, 0, 0]
+
+[Options.MOptionsDialog]
+GDialog.mDialogStyle=DS_KEYCANCEL|DS_NOAUTOCENTER|DS_CANCELONNCHIT
+CHILDREN=dlg.options
+GUI.mStyle=GS_TAB|GS_MODAL
+GUI.mBounds=[175, 34] 640, 472
+GUI.mColor=[84, 0, 0, 0]
+
+[InventoryCar3D.MCarInventoryDlg]
+GDialog.mDialogStyle=DS_KEYCANCEL
+CHILDREN=Dlg.Inv.Car.3d
+GUI.mStyle=GS_TAB|GS_ABSOLUTE|GS_MODAL
+GUI.mBounds=[147, 153] 607, 343
+GUI.mZOrder=2
+GUI.mTabOrder=1
+GUI.mColor=[84, 0, 0, 0]
+
+[InventoryCar.MCarInventoryDlg]
+GDialog.mDialogStyle=DS_KEYCANCEL
+CHILDREN=Dlg.Inv.Car
+GUI.mStyle=GS_TAB|GS_ABSOLUTE|GS_MODAL
+GUI.mBounds=[199, 185] 355, 335
+GUI.mColor=[84, 0, 0, 0]
+
+[ChooseAttach.GDialog]
+GDialog.mDialogStyle=DS_KEYCANCEL|DS_KEYOK
+GUI.mStyle=GS_TAB|GS_ABSOLUTE|GS_MODAL
+CHILDREN=Dlg.ChooseAttach
+GUI.mBounds=[303, 169] 296, 147
+GUI.mColor=[84, 0, 0, 0]
+
+[Catalog.MCatalog]
+GDialog.mDialogStyle=DS_NOAUTOCENTER|DS_KEYCANCEL|DS_CANCELONNCHIT
+CHILDREN=dlg.Catalog
+GUI.mStyle=GS_TAB|GS_MODAL
+GUI.mBounds=[175, 37] 640, 520
+GUI.mColor=[84, 0, 0, 0]
+
+[RequestHelp.GDialog]
+GDialog.mDialogStyle=DS_NOAUTOCENTER|DS_KEYCANCEL|DS_CANCELONNCHIT
+CHILDREN=dlg.RequestHelp
+GUI.mStyle=GS_TAB|GS_MODAL
+GUI.mBounds=[175, 37] 640, 520
+GUI.mColor=[84, 0, 0, 0]
+
+[AuctionSelect.GDialog]
+GUI.mStyle=GS_TAB|GS_ABSOLUTE|GS_MODAL
+GUI.mBounds=[252, 159] 297, 325
+CHILDREN=Dlg.AucSelect
+GUI.mColor=[84, 0, 0, 0]
+
+[debugEditTutor.MTutorEditor]
+GUI.mStyle=GS_TAB|GS_ABSOLUTE|GS_MODAL
+GUI.mBounds=[115, 283] 491, 256
+CHILDREN=debug.tutor.edit
+
+[_NewPart.GDialog]
+GUI.mStyle=GS_TAB|GS_ABSOLUTE|GS_MODAL
+GUI.mBounds=[135, 62] 389, 385
+CHILDREN=DEBUG.Dlg.parts
+
+[StarterCar.GDialog]
+GUI.mStyle=GS_DISABLE|GS_TAB|GS_ABSOLUTE|GS_MODAL
+GDialog.mDialogStyle=DS_KEYCANCEL|DS_NOAUTOCENTER
+CHILDREN=Dlg.startcar
+GUI.mBounds=[106, 23] 802, 570
+
+[CreationComplete.GDialog]
+GUI.mStyle=GS_TAB|GS_ABSOLUTE|GS_MODAL
+GDialog.mDialogStyle=DS_KEYCANCEL|DS_KEYOK
+CHILDREN=Dlg.CreationComplete
+GUI.mBounds=[281, 140] 242, 178
+GUI.mColor=[84, 0, 0, 0]
+
+[ScreenRez.GMsgBox]
+GDialog.mDialogStyle=DS_KEYOK|DS_KEYCANCEL
+GDialog.mTimeOut=15
+GUI.mStyle=GS_TAB|GS_MODAL
+GUI.mLayout=LAYOUT_HCENTER
+GUI.mBounds=[0, 0] 800, 600
+CHILDREN=dlg.screenrez
+
+[welcomeEZ.GDialog]
+CHILDREN=Dlg.Welc.EZ
+GUI.mStyle=GS_DISABLE|GS_TAB|GS_ABSOLUTE|GS_MODAL
+GUI.mBounds=[163, 148] 361, 301
+GUI.mZOrder=1
+GUI.mTabOrder=1
+GUI.mColor=[84, 0, 0, 0]
+
+
+[welcomeSIM.GDialog]
+GDialog.mDialogStyle=DS_KEYOK|DS_KEYCANCEL
+CHILDREN=Dlg.Welc.SIM
+GUI.mStyle=GS_DISABLE|GS_TAB|GS_ABSOLUTE|GS_MODAL
+GUI.mBounds=[164, 148] 463, 310
+GUI.mColor=[84, 0, 0, 0]
+
+
+[ViewCar.MPitViewCarDlg]
+GUI.mStyle=GS_TAB|GS_ABSOLUTE|GS_MODAL
+CHILDREN=Dlg.ViewCar
+GUI.mBounds=[154, 154] 526, 305
+GUI.mColor=[84, 0, 0, 0]
+
+[ChangeCar.MGarageDlg]
+GUI.mStyle=GS_TAB|GS_ABSOLUTE|GS_MODAL
+CHILDREN=Dlg.ChangeCar
+GUI.mBounds=[93, 83] 625, 425
+GUI.mColor=[84, 0, 0, 0]
+
+[HPopup.GDialog]
+GDialog.mDialogStyle=DS_KEYOK|DS_KEYCANCEL
+CHILDREN=dlg.hpopup
+GUI.mStyle=GS_ABSOLUTE|GS_MODAL
+GUI.mBounds=[317, 174] 458, 351
+GUI.mPalette=frame palette
+GUI.mUserList=1
+GUI.mFont=eug9pt
+GUI.mTabOrder=1
+GUI.mColor=[84, 0, 0, 0]
+
+[TestDrive.GDialog]
+GUI.mStyle=GS_TAB|GS_ABSOLUTE|GS_MODAL
+GUI.mBounds=[213, 114] 375, 239
+CHILDREN=Dlg.TestDrive
+GUI.mColor=[84, 0, 0, 0]
+
+[ClubResign.GDialog]
+GDialog.mDialogStyle=DS_KEYOK|DS_KEYCANCEL
+GUI.mStyle=GS_TAB|GS_ABSOLUTE|GS_MODAL
+GUI.mBounds=[87, 86] 459, 316
+CHILDREN=Dlg.ClubResign
+GUI.mColor=[84, 0, 0, 0]
+
+[ClubInvitation.GDialog]
+GDialog.mDialogStyle=DS_KEYCANCEL
+CHILDREN=Dlg.ClubInvitation
+GUI.mStyle=GS_TAB|GS_ABSOLUTE|GS_MODAL
+GUI.mBounds=[148, 123] 504, 392
+GUI.mZOrder=1
+GUI.mTabOrder=2
+GUI.mColor=[84, 0, 0, 0]
+
+[EditClubDesc.GDialog]
+GDialog.mDialogStyle=DS_KEYOK|DS_KEYCANCEL
+GUI.mStyle=GS_TAB|GS_ABSOLUTE|GS_MODAL
+GUI.mBounds=[226, 150] 348, 282
+CHILDREN=Dlg.EditClubDesc
+GUI.mColor=[84, 0, 0, 0]
+
+[ClubProfile.MClubProfileDlg]
+GDialog.mDialogStyle=DS_KEYCANCEL
+GUI.mStyle=GS_TAB|GS_ABSOLUTE|GS_MODAL
+CHILDREN=Dlg.ClubProfile
+GUI.mBounds=[239, 24] 475, 409
+GUI.mColor=[84, 0, 0, 0]
+
+[ClubInvite.GDialog]
+GDialog.mDialogStyle=DS_KEYCANCEL
+GUI.mStyle=GS_TAB|GS_ABSOLUTE|GS_MODAL
+CHILDREN=Dlg.ClubInvite
+GUI.mBounds=[188, 150] 424, 292
+GUI.mColor=[84, 0, 0, 0]
+
+[Generic.GMsgBox]
+GUI.mBounds=[238, 260] 351, 85
+CHILDREN=Dlg.Msg
+GUI.mColor=[84, 0, 0, 0]
+
+[Exit.GMsgBox]
+GDialog.mDialogStyle=DS_KEYOK|DS_KEYCANCEL
+GDialog.mTimeOut=0.00
+GWidget.mWidgetStyle=NULL
+GWidget.mToolTip=
+CHILDREN=Dlg.Msg.Exit
+GUI.mStyle=GS_TAB|GS_ABSOLUTE|GS_MODAL|GS_HIDE
+GUI.mBounds=[207, 134] 386, 192
+GUI.mFont=
+GUI.mPalette=frame palette
+GUI.mColor=[255, 255, 255, 255]
+GUI.mText=
+GUI.mUserList=1
+GUI.mColor=[84, 0, 0, 0]
+
+[Login.MLoginDlg]
+GDialog.mDialogStyle=DS_KEYOK|DS_KEYCANCEL
+GDialog.mTimeOut=0.00
+GWidget.mWidgetStyle=NULL
+GWidget.mToolTip=
+CHILDREN=Dlg.Login
+GUI.mStyle=GS_TAB|GS_ABSOLUTE|GS_MODAL|GS_HIDE
+GUI.mBounds=[227, 198] 345, 203
+GUI.mFont=
+GUI.mPalette=frame palette
+GUI.mText=
+GUI.mUserList=1
+
+[PitCreate.MPitCreateDlg]
+GDialog.mDialogStyle=DS_NOAUTOCENTER|DS_KEYCANCEL|DS_KEYOK|DS_CANCELONNCHIT
+GUI.mStyle=GS_TAB|GS_MODAL
+GUI.mBounds=[181, 37] 634, 467
+CHILDREN=Dlg.PitCreate
+GUI.mColor=[84, 0, 0, 0]
+
+
+
+
+
+
+[PitCreateSwap.GDialog]
+GUI.mStyle=GS_TAB|GS_ABSOLUTE|GS_MODAL
+GUI.mBounds=[155, 144] 411, 238
+CHILDREN=Dlg.PitCreate.Swap
+GUI.mColor=[84, 0, 0, 0]
+
+
+
+
+[erword.GDialog]
+GDialog.mDialogStyle=DS_KEYOK|DS_KEYCANCEL
+GDialog.mTimeOut=0.00
+GWidget.mWidgetStyle=NULL
+GWidget.mToolTip=
+CHILDREN=Dlg.PitPassword
+GUI.mStyle=GS_TAB|GS_ABSOLUTE|GS_MODAL|GS_HIDE
+GUI.mBounds=[122, 251] 408, 248
+GUI.mPalette=frame palette
+GUI.mColor=[84, 0, 0, 0]
+
+[PersonaCreate.MPersonaCreateDlg]
+GDialog.mDialogStyle=DS_KEYOK|DS_KEYCANCEL|DS_NOAUTOCENTER
+CHILDREN=Dlg.PersonaCreate
+GUI.mStyle=GS_MODAL
+GUI.mBounds=[316, 168] 461, 354
+GUI.mPalette=frame palette
+GUI.mUserList=1
+GUI.mFont=eug9pt
+GUI.mTabOrder=1
+
+[PersonaSelect.MPersonaSelectDlg]
+GDialog.mDialogStyle=DS_KEYOK|DS_KEYCANCEL|DS_NOAUTOCENTER
+CHILDREN=Dlg.Persona
+GUI.mStyle=GS_MODAL
+GUI.mBounds=[316, 168] 461, 354
+GUI.mPalette=frame palette
+GUI.mUserList=1
+GUI.mFont=eug9pt
+GUI.mTabOrder=1
+
+[Shard.MShardDlg]
+GDialog.mDialogStyle=DS_KEYOK|DS_KEYCANCEL|DS_NOAUTOCENTER
+CHILDREN=Dlg.Shard
+GUI.mStyle=GS_ABSOLUTE|GS_MODAL
+GUI.mBounds=[316, 168] 461, 354
+GUI.mPalette=frame palette
+GUI.mFont=eug9pt
+GUI.mTabOrder=2
+
+[GlobalShard.MGlobalShardDlg]
+GDialog.mDialogStyle=DS_KEYOK|DS_KEYCANCEL
+CHILDREN=Dlg.Msg
+GUI.mStyle=GS_TAB|GS_MODAL
+GUI.mBounds=[238, 260] 351, 85
+GUI.mColor=[84, 0, 0, 0]
+
+[BestShard.MPickBestShardDlg]
+GDialog.mDialogStyle=DS_KEYOK|DS_KEYCANCEL
+CHILDREN=Dlg.Msg
+GUI.mStyle=GS_TAB|GS_MODAL
+GUI.mBounds=[238, 260] 351, 85
+GUI.mColor=[84, 0, 0, 0]
+
+[PlayerProfile.MViewProfileDlg]
+GUI.mStyle=GS_TAB|GS_ABSOLUTE|GS_MODAL
+GUI.mBounds=[91, 52] 613, 463
+CHILDREN=dlg.com.pro.l
+GDialog.mDialogStyle=DS_KEYCANCEL
+GUI.mColor=[84, 0, 0, 0]
+
+
+
+
+[ViewProfile.GDialog]
+GDialog.mDialogStyle=DS_KEYCANCEL
+GUI.mStyle=GS_TAB|GS_ABSOLUTE|GS_MODAL
+CHILDREN=Dlg.ViewProfile
+GUI.mBounds=[302, 141] 424, 319
+GUI.mColor=[84, 0, 0, 0]
+
+
+[QuitSim.GDialog]
+GDialog.mDialogStyle=DS_KEYCANCEL
+GUI.mStyle=GS_TAB|GS_ABSOLUTE|GS_MODAL
+CHILDREN=Dlg.QuitSim
+GUI.mBounds=[204, 179] 181, 151
+GUI.mFont=Arial Fixed 7
+GUI.mPalette=frame palette
+GUI.mColor=[84, 0, 0, 0]
+
+[CarEdit.GDialog]
+GUI.mStyle=GS_TAB|GS_ABSOLUTE|GS_MODAL
+CHILDREN=debug.Dlg.CarEdit
+GUI.mBounds=[0, 0] 800, 600
+GUI.mFont=Arial Fixed 7
+GUI.mPalette=frame palette
+
+[CarEditPart.GDialog]
+GUI.mStyle=GS_TAB|GS_ABSOLUTE|GS_MODAL
+CHILDREN=debug.Dlg.CarEditPart
+GUI.mBounds=[0, 0] 800, 600
+GUI.mFont=Arial Fixed 7
+GUI.mPalette=frame palette
+
+[AdjustAnim.GDialog]
+GUI.mStyle=GS_TAB|GS_ABSOLUTE|GS_MODAL
+CHILDREN=debug.Dlg.AdjustAnim
+GUI.mBounds=[0, 0] 800,600
+GUI.mFont=Arial Fixed 7
+GUI.mPalette=frame palette
+
+[AnimShowStats.GDialog]
+GUI.mStyle=GS_TAB|GS_ABSOLUTE|GS_MODAL
+CHILDREN=debug.Dlg.AnimShowStats
+GUI.mBounds=[400, 0] 400,600
+GUI.mFont=Arial Fixed 7
+GUI.mPalette=frame palette
+
+[AnimShowError.GDialog]
+GUI.mStyle=GS_TAB|GS_ABSOLUTE|GS_MODAL
+CHILDREN=debug.Dlg.AnimShowError
+GUI.mBounds=[400, 0] 400,600
+GUI.mFont=Arial Fixed 7
+GUI.mPalette=frame palette
+
+
+[SelectAnim.GDialog]
+GUI.mStyle=GS_TAB|GS_ABSOLUTE|GS_MODAL
+CHILDREN=debug.Dlg.SelectAnim
+GUI.mBounds=[400, 0] 400,600
+GUI.mFont=Arial Fixed 7
+GUI.mPalette=frame palette
+
+[DebugPassword.GDialog]
+GUI.mStyle=GS_TAB|GS_ABSOLUTE|GS_MODAL
+CHILDREN=debug.Dlg.DebugPassword
+GUI.mBounds=[0, 0] 340,130
+GUI.mFont=Arial Fixed 7
+GUI.mPalette=frame palette
+
+[DrawGraphForPart.GDialog]
+GUI.mStyle=GS_TAB|GS_ABSOLUTE|GS_MODAL
+CHILDREN=debug.Dlg.DrawGraphForPart
+GUI.mBounds=[0, 0] 421,344
+GUI.mFont=Arial Fixed 7
+GUI.mPalette=frame palette
+
+[EditNumber.GDialog]
+GUI.mStyle=GS_TAB|GS_ABSOLUTE|GS_MODAL
+CHILDREN=debug.Dlg.EditNumber
+GUI.mBounds=[0, 0] 340,130
+GUI.mFont=Arial Fixed 7
+GUI.mPalette=frame palette
+*GEVENT_EXIT=EditNumber_Exit
+
+[EditNumberWithMore.GDialog]
+GUI.mStyle=GS_TAB|GS_ABSOLUTE|GS_MODAL
+CHILDREN=debug.Dlg.EditNumberWithMore
+GUI.mBounds=[0, 0] 340,300
+GUI.mFont=Arial Fixed 7
+GUI.mPalette=frame palette
+*GEVENT_EXIT=EditNumber_Exit
+
+[MasterLocal.GDialog]
+GUI.mStyle=GS_TAB|GS_ABSOLUTE|GS_MODAL
+CHILDREN=debug.Dlg.MasterLocal
+GUI.mBounds=[0, 0] 500,150
+GUI.mFont=Arial Fixed 7
+GUI.mPalette=frame palette
+
+
+[INIEdit.MINIDialog]
+GUI.mStyle=GS_TAB|GS_ABSOLUTE|GS_MODAL
+GUI.mBounds=[85, 49] 629, 440
+GUI.mFont=eug9pt
+GUI.mPalette=EDITORLIST
+CHILDREN=DEBUG.Dlg.INIEdit
+
+[INIEntry.GDialog]
+GUI.mStyle=GS_TAB|GS_ABSOLUTE|GS_MODAL
+GUI.mBounds=[120, 209] 559, 182
+CHILDREN=Dlg.INIEntry
+GUI.mPalette=EDITORLIST
+GUI.mFont=eug9pt
+
+[DealerPurchase.GDialog]
+GUI.mStyle=GS_TAB|GS_ABSOLUTE|GS_MODAL|GS_HIDE
+GUI.mBounds=[409, 114] 356, 169
+CHILDREN=Dlg.DealerPurchase
+GUI.mColor=[84, 0, 0, 0]
+GDialog.mDialogStyle=DS_KEYOK|DS_KEYCANCEL
+
+[DealerTradeIn.GDialog]
+GUI.mStyle=GS_TAB|GS_ABSOLUTE|GS_MODAL|GS_HIDE
+GUI.mBounds=[409, 122] 356, 363
+CHILDREN=Dlg.DealerTradeIn
+GUI.mColor=[84, 0, 0, 0]
+GUI.mColor=[84, 0, 0, 0]
+GDialog.mDialogStyle=DS_KEYOK|DS_KEYCANCEL
+
+[PlaceAd.GDialog]
+GUI.mStyle=GS_TAB|GS_ABSOLUTE|GS_MODAL
+GUI.mBounds=[96, 131] 574, 330
+CHILDREN=Dlg.msg.PlaceAd
+GUI.mColor=[84, 0, 0, 0]
+
+
+
+[Contacts.GDialog]
+GUI.mStyle=GS_TAB|GS_MODAL
+GUI.mBounds=[181, 108] 634, 467
+CHILDREN=dlg.ContMess
+GDialog.mDialogStyle=DS_NOAUTOCENTER|DS_KEYCANCEL|DS_CANCELONNCHIT
+GUI.mColor=[84, 0, 0, 0]
+
+
+[Chat.GDialog]
+GDialog.mDialogStyle=DS_KEYCANCEL
+GUI.mStyle=GS_TAB
+GUI.mBounds=[220, 169] 461, 252
+CHILDREN=Dlg.Msg.Chat
+GUI.mTabOrder=1
+GUI.mColor=[84, 0, 0, 0]
+
+[ComposeMess.GDialog]
+GUI.mStyle=GS_DISABLE|GS_TAB|GS_ABSOLUTE|GS_MODAL
+CHILDREN=Dlg.Msg.EdEdSendCanc
+GDialog.mDialogStyle=DS_KEYOK|DS_KEYCANCEL
+GUI.mBounds=[272, 169] 356, 303
+GUI.mZOrder=2
+GUI.mTabOrder=1
+GUI.mColor=[84, 0, 0, 0]
+
+[ReadyToRace.GMsgBox]
+GUI.mStyle=GS_TAB|GS_ABSOLUTE|GS_MODAL
+GUI.mBounds=[131, 143] 474, 271
+CHILDREN=Dlg.Msg.WaitRace
+GDialog.mDialogStyle=DS_KEYCANCEL
+GUI.mColor=[84, 0, 0, 0]
+
+[LobbySelect.MLobbySelectDialog]
+CHILDREN=Dlg.LobbySelect
+GUI.mStyle=GS_TAB|GS_ABSOLUTE|GS_MODAL
+GUI.mBounds=[62, 29] 584, 458
+GUI.mColor=[84, 0, 0, 0]
+
+[PSimTune.GDialog]
+GUI.mStyle=GS_TAB|GS_ABSOLUTE|GS_MODAL
+CHILDREN=dlg.psimtune
+GUI.mBounds=[49, 53] 684, 474
+GUI.mColor=[84, 0, 0, 0]
+
+
+[Inventory.MInventoryDlg]
+CHILDREN=Dlg.Inv.Assembly
+GUI.mStyle=GS_TAB|GS_ABSOLUTE|GS_MODAL
+GUI.mBounds=[67, 112] 665, 421
+GUI.mColor=[84, 0, 0, 0]
+
+
+
+[PartView.GDialog]
+GDialog.mDialogStyle=DS_KEYCANCEL|DS_NOAUTOCENTER
+CHILDREN=dlg.partview
+GUI.mStyle=GS_TAB|GS_ABSOLUTE|GS_MODAL
+GUI.mBounds=[288, 147] 330, 305
+GUI.mColor=[84, 0, 0, 0]
+
+[PartViewAuc.MAuctionInfo]
+GDialog.mDialogStyle=DS_NOAUTOCENTER|DS_KEYCANCEL|GS_MODAL|DS_CANCELONNCHIT
+CHILDREN=dlg.auc.partview
+GUI.mStyle=GS_TAB|GS_MODAL
+GUI.mBounds=[175, 37] 640, 467
+GUI.mColor=[84, 0, 0, 0]
+
+[CarViewAuc.MAuctionInfo]
+GDialog.mDialogStyle=DS_NOAUTOCENTER|DS_KEYCANCEL|GS_MODAL|DS_CANCELONNCHIT
+CHILDREN=dlg.auc.carview
+GUI.mStyle=GS_TAB|GS_MODAL
+GUI.mBounds=[175, 37] 640, 467
+GUI.mColor=[84, 0, 0, 0]
+
+
+
+[BrokenPart.MBrokenPartDlg]
+GDialog.mDialogStyle=DS_KEYCANCEL
+CHILDREN=Dlg.BrokenParts
+GUI.mStyle=GS_TAB|GS_ABSOLUTE|GS_MODAL
+GUI.mBounds=[123, 140] 575, 332
+GUI.mColor=[84, 0, 0, 0]
+
+[EditPersona.MEditPersonaDlg]
+GUI.mStyle=GS_TAB|GS_ABSOLUTE|GS_MODAL
+GUI.mBounds=[38, 102] 681, 379
+CHILDREN=Dlg.EditPersona
+GUI.mPalette=frame palette
+GDialog.mDialogStyle=DS_KEYCANCEL|DS_KEYOK
+GUI.mColor=[84, 0, 0, 0]
+
+[TradeWin.MTradeWindow]
+GDialog.mDialogStyle=DS_KEYOK|DS_KEYCANCEL|DS_CANCELONNCHIT
+CHILDREN=dlg.TradWind
+GUI.mStyle=GS_TAB|GS_MODAL
+GUI.mBounds=[181, 108] 634, 467
+GUI.mColor=[84, 0, 0, 0]
+
+
+[MayorLetter.GDialog]
+GDialog.mDialogStyle=DS_KEYOK
+CHILDREN=Dlg.letter.continue
+GUI.mStyle=GS_DISABLE|GS_TAB|GS_ABSOLUTE|GS_MODAL
+GUI.mBounds=[220, 45] 431, 508
+
+GUI.mZOrder=1
+GUI.mTabOrder=2
+GUI.mColor=[84, 0, 0, 0]
+GUI.mLayout=LAYOUT_VCENTER|LAYOUT_HCENTER
+
+
+[Paycheck.GDialog]
+GDialog.mDialogStyle=DS_KEYOK
+CHILDREN=Dlg.Check.Ok
+GUI.mStyle=GS_TAB|GS_MODAL
+GUI.mBounds=[99, 148] 593, 277
+GUI.mZOrder=1
+GUI.mTabOrder=1
+GUI.mColor=[84, 0, 0, 0]
+
+[PayEarnings.GDialog]
+GDialog.mDialogStyle=DS_KEYOK
+CHILDREN=Dlg.Earnings
+GUI.mStyle=GS_TAB|GS_MODAL
+GUI.mBounds=[175, 37] 640, 467
+GUI.mZOrder=1
+GUI.mTabOrder=1
+GUI.mColor=[84, 0, 0, 0]
+
+
+[PayEarnTopTurf.GDialog]
+GDialog.mDialogStyle=DS_KEYOK
+CHILDREN=Dlg.Earnings.TopTurf
+GUI.mStyle=GS_TAB|GS_MODAL
+GUI.mBounds=[175, 37] 640, 467
+GUI.mZOrder=1
+GUI.mTabOrder=1
+GUI.mColor=[84, 0, 0, 0]
+
+
+[PayRankAdv.GDialog]
+GDialog.mDialogStyle=DS_KEYOK
+CHILDREN=Dlg.advance.rank
+GUI.mStyle=GS_TAB|GS_MODAL
+GUI.mBounds=[101, 63] 597, 459
+GUI.mZOrder=1
+GUI.mTabOrder=2
+GUI.mColor=[84, 0, 0, 0]
+
+[LevelAdvance.GDialog]
+CHILDREN=Dlg.advance.level
+GUI.mStyle=GS_DISABLE|GS_TAB|GS_ABSOLUTE|GS_MODAL
+GUI.mBounds=[235, 106] 474, 325
+GUI.mColor=[84, 0, 0, 0]
+
+
+[PaycheckFirst.GDialog]
+GDialog.mDialogStyle=DS_KEYOK
+CHILDREN=Dlg.Check.Ok.firsttime
+GUI.mStyle=GS_TAB|GS_MODAL
+GUI.mBounds=[99, 148] 593, 309
+GUI.mZOrder=1
+GUI.mTabOrder=1
+GUI.mColor=[84, 0, 0, 0]
+
+
+[Clubs.MClubDlg]
+GDialog.mDialogStyle=DS_NOAUTOCENTER|DS_KEYCANCEL|DS_CANCELONNCHIT
+CHILDREN=dlg.ClubWind
+GUI.mStyle=GS_TAB|GS_MODAL
+GUI.mBounds=[181, 108] 634, 467
+GUI.mColor=[84, 0, 0, 0]
+
+[CreateClub.GDialog]
+GDialog.mDialogStyle=DS_KEYOK|DS_KEYCANCEL
+GUI.mStyle=GS_TAB|GS_ABSOLUTE|GS_MODAL
+CHILDREN=Dlg.CreateClub
+GUI.mBounds=[226, 150] 348, 311
+GUI.mColor=[84, 0, 0, 0]
+
+[NoClub.GDialog]
+GDialog.mDialogStyle=DS_NOAUTOCENTER|DS_KEYCANCEL|DS_CANCELONNCHIT
+CHILDREN=dlg.ClubWind.half
+GUI.mStyle=GS_TAB|GS_MODAL
+GUI.mBounds=[536, 108] 263, 467
+GUI.mColor=[84, 0, 0, 0]
+
+[ViewReplay.MViewReplayDlg]
+GDialog.mDialogStyle=DS_KEYCANCEL|DS_KEYOK
+CHILDREN=Dlg.ViewReplay
+GUI.mStyle=GS_TAB|GS_ABSOLUTE|GS_MODAL
+GUI.mBounds=[31, 21] 400, 300
+GUI.mColor=[84, 0, 0, 0]
+
+[SetFilterPassword.GDialog]
+GUI.mStyle=GS_DISABLE|GS_HIDE|GS_TAB|GS_ABSOLUTE|GS_MODAL
+CHILDREN=Dlg.filter.setpass
+GUI.mBounds=[199, 88] 402, 244
+GUI.mZOrder=2
+GUI.mTabOrder=2
+GUI.mColor=[84, 0, 0, 0]
+
+[EnterFilterPassword.GDialog]
+GUI.mStyle=GS_DISABLE|GS_HIDE|GS_TAB|GS_ABSOLUTE|GS_MODAL
+CHILDREN=Dlg.filter.entpass
+GUI.mBounds=[245, 88] 309, 124
+GUI.mZOrder=1
+GUI.mTabOrder=1
+GUI.mColor=[84, 0, 0, 0]
+
+[FilterSettings.GDialog]
+CHILDREN=Dlg.filter.filtlist
+GUI.mStyle=GS_DISABLE|GS_TAB|GS_ABSOLUTE|GS_MODAL
+GUI.mBounds=[169, 88] 461, 359
+GUI.mColor=[84, 0, 0, 0]
